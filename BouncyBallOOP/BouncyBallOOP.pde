@@ -2,7 +2,7 @@ Ball b1, b2;                //declare a new ball called b
 
 void setup() {
   size(1000 , 800);
-  b1 = new Ball(width/2,height/2);      //initialize b as a new object of the Ball class
+  b1 = new Ball(width/2,height/2, 200);      //initialize b as a new object of the Ball class
 }
 
 void draw() {

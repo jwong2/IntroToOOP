@@ -12,6 +12,14 @@ class Ball {
     vel = PVector.random2D();
     vel.mult(5);
   }
+  
+    Ball(float tX, float tY, int size) {
+    diam = size;
+    loc = new PVector(tX, tY);
+    c = color(0, 255, 0);
+    vel = PVector.random2D();
+    vel.mult(5);
+  }
 
 //after declaring fields and setting up constructors, you can define your methods
   void display() {
